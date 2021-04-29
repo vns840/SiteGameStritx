@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.header {
+  background: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  font-family: "DotGothic16", sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.menu {
+  display: flex;
+  font-family: "Zen Dots", cursive;
+  font-size: 0.9rem;
+}
+.menu a {
+  color: #fff;
+}
+.menu li {
+  margin-left: 10px;
+}
+.painel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  background: url(../img/fundotela3.png);
+  background: cover;
+  height: 35rem;
+  width: 100%;
+}
+.painel > div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+.boxgame {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.boxgame > div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
