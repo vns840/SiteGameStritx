@@ -16,9 +16,10 @@
     <nav>
       <ul class="menu">
         <li><a href="">Inicio</a></li>
+        <li><a href="#cadastro">Cadastro</a></li>
         <li><a href="">Sobre o Game</a></li>
         <li><a href="">Documentação</a></li>
-        <li><a href="">Contato</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -32,21 +33,108 @@
       <button>Jogue Agora</button>
     </div>
   </main>
-  <h2>separador</h2>
+  <h2 class="title">separador</h2>
   <section class="boxgame">
     <div>
-      <img src="img/fundotela3.png" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, porro.</p>
+      <img src="img/fase1.png" alt="">
+      <p>Fase 1: A Terra se encontra desolada apos un surto de um virus</p>
     </div>
     <div>
-      <img src="img/fundotela3.png" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, porro.</p>
+      <img src="img/fase2.png" alt="">
+      <p>Fase 2: fuga para o espaço em busca da salvação</p>
     </div>
     <div>
+      <img src="img/fase3.png" alt="">
+      <p>Fase 3: Final , a esperar de um milagre</p>
+    </div>
+  </section>
+  
+  <h2 class="title">Almanaque Stritx</h2>
+  <section class="aboutgame">
+    <div class="gameitem">
+      <img src="img/icon.png" alt="">
+      <p class="legenda-modal">Protagonista</p>
+    </div>
+    <div class="gameitem">
       <img src="img/fundotela3.png" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, porro.</p>
+      <p class="legenda-modal1">monstro</p>
+    </div>
+    <div class="gameitem">
+      <img src="img/fundotela3.png" alt="">
+      <p>Lorem ipsum dolor</p>
     </div>
   </section>
 
+  <h2 class="title">Cdastro</h2>
+  <section class="cadastro" id="cadastro">
+    
+      <div class="container" id="container">
+        <div class="form-container sign-up-container">
+          <form action="#">
+            <h1>Faça seu cadastro</h1>
+            <span>Para continuar prencha os dados abaixo</span>
+            <input type="text" placeholder="Nome" />
+            <input type="email" placeholder="E-mail" />
+            <input type="password" placeholder="senha" />
+            <button>Cadastrar</button>
+          </form>
+        </div>
+        <div class="form-container sign-in-container">
+          <form action="#">
+            <h1>Entrar</h1>
+            <input type="email" placeholder="E-mail" />
+            <input type="password" placeholder="Senha" />
+            <a href="#">Esqueceu a senha ?</a>
+            <button>Entrar</button>
+          </form>
+        </div>
+        <div class="overlay-container">
+          <div class="overlay">
+            <div class="overlay-panel overlay-left">
+              <h1>Bem vindo de Volta!</h1>
+              <p>Para Continuar clique em entar</p>
+              <button class="ghost" id="signIn">Entar</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+              <h1>Ola, Gamer!</h1>
+              <p>Insira seus dados pessoais e comece a jornada conosco</p>
+              <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <h2 class="title" id="contato">Contato</h2>
+  <section class="contato">
+    <div class="boxContato">
+      <h2>Stritx</h2>
+    </div>
+    <div>
+      <ul>
+        <li>Email: contato@stritx.com</li>
+        <li>Telefone: (11) 5555-5555</li>
+        <li>Caixa Postal: 000-000</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <footer>
+
+  </footer>
+
+  <div id="modal-protagonista" class="modal-container">
+    <div class="modal"> 
+      <button class="close">X</button>
+      <img src="img/icon.png" alt="">
+      <div>
+      <h3>protagonista</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla minus quae repellat, deleniti voluptate a iusto molestiae quasi consequatur explicabo, quia, saepe sunt. Laborum libero perferendis molestias. Temporibus laudantium veniam quaerat veritatis, corrupti vitae ex eaque, ullam, voluptatem maxime reiciendis.</p>
+    </div>
+    </div>
+  </div>
+  
+  <script src="js/script.js"></script>
 </body>
 </html>
